@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADF7312897F93CCD6A91A41 /* libPods-HooApps_YikYakUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073826D00FB825D9E97F47C0 /* libPods-HooApps_YikYakUITests.a */; };
+		698FE5BA9DBC9664A902DB58 /* libPods-HooApps_YikYakTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D75B9E9E4DF3D29BBD8E6CF8 /* libPods-HooApps_YikYakTests.a */; };
+		71E7160E1F68789E008361A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7160D1F68789E008361A6 /* AppDelegate.swift */; };
+		71E716101F68789E008361A6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7160F1F68789E008361A6 /* FirstViewController.swift */; };
+		71E716121F68789E008361A6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E716111F68789E008361A6 /* SecondViewController.swift */; };
+		71E716151F68789E008361A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E716131F68789E008361A6 /* Main.storyboard */; };
+		71E716171F68789E008361A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E716161F68789E008361A6 /* Assets.xcassets */; };
+		71E7161A1F68789E008361A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E716181F68789E008361A6 /* LaunchScreen.storyboard */; };
+		71E716251F68789E008361A6 /* HooApps_YikYakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E716241F68789E008361A6 /* HooApps_YikYakTests.swift */; };
+		71E716301F68789E008361A6 /* HooApps_YikYakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7162F1F68789E008361A6 /* HooApps_YikYakUITests.swift */; };
+		A92F04F347E80CCFEBD0516A /* libPods-HooApps_YikYak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EC28B304DD33B39B87132D /* libPods-HooApps_YikYak.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E716211F68789E008361A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E716021F68789E008361A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E716091F68789E008361A6;
+			remoteInfo = HooApps_YikYak;
+		};
+		71E7162C1F68789E008361A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E716021F68789E008361A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E716091F68789E008361A6;
+			remoteInfo = HooApps_YikYak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073826D00FB825D9E97F47C0 /* libPods-HooApps_YikYakUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HooApps_YikYakUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E7160A1F68789E008361A6 /* HooApps_YikYak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HooApps_YikYak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E7160D1F68789E008361A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E7160F1F68789E008361A6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		71E716111F68789E008361A6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		71E716141F68789E008361A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E716161F68789E008361A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E716191F68789E008361A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71E7161B1F68789E008361A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E716201F68789E008361A6 /* HooApps_YikYakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooApps_YikYakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E716241F68789E008361A6 /* HooApps_YikYakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooApps_YikYakTests.swift; sourceTree = "<group>"; };
+		71E716261F68789E008361A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E7162B1F68789E008361A6 /* HooApps_YikYakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooApps_YikYakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E7162F1F68789E008361A6 /* HooApps_YikYakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooApps_YikYakUITests.swift; sourceTree = "<group>"; };
+		71E716311F68789E008361A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7202EC10DE74C29C6D470D7D /* Pods-HooApps_YikYak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HooApps_YikYak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HooApps_YikYak/Pods-HooApps_YikYak.debug.xcconfig"; sourceTree = "<group>"; };
+		B9C35C9E9FAF9981A7A62F4A /* Pods-HooApps_YikYakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HooApps_YikYakUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HooApps_YikYakUITests/Pods-HooApps_YikYakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D320C4994A1F1DAA99EEDEE4 /* Pods-HooApps_YikYakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HooApps_YikYakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HooApps_YikYakTests/Pods-HooApps_YikYakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4EC28B304DD33B39B87132D /* libPods-HooApps_YikYak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HooApps_YikYak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75B9E9E4DF3D29BBD8E6CF8 /* libPods-HooApps_YikYakTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HooApps_YikYakTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5805CCF17EA34DBA898F0FF /* Pods-HooApps_YikYak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HooApps_YikYak.release.xcconfig"; path = "Pods/Target Support Files/Pods-HooApps_YikYak/Pods-HooApps_YikYak.release.xcconfig"; sourceTree = "<group>"; };
+		EC19B9FFD775FC62C19EDCBC /* Pods-HooApps_YikYakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HooApps_YikYakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HooApps_YikYakUITests/Pods-HooApps_YikYakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA8F1E15F617C4C7BAA24F2 /* Pods-HooApps_YikYakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HooApps_YikYakTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HooApps_YikYakTests/Pods-HooApps_YikYakTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E716071F68789E008361A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92F04F347E80CCFEBD0516A /* libPods-HooApps_YikYak.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E7161D1F68789E008361A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698FE5BA9DBC9664A902DB58 /* libPods-HooApps_YikYakTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E716281F68789E008361A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADF7312897F93CCD6A91A41 /* libPods-HooApps_YikYakUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECCB3CAE761384BA58C5F1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7202EC10DE74C29C6D470D7D /* Pods-HooApps_YikYak.debug.xcconfig */,
+				E5805CCF17EA34DBA898F0FF /* Pods-HooApps_YikYak.release.xcconfig */,
+				D320C4994A1F1DAA99EEDEE4 /* Pods-HooApps_YikYakTests.debug.xcconfig */,
+				EDA8F1E15F617C4C7BAA24F2 /* Pods-HooApps_YikYakTests.release.xcconfig */,
+				EC19B9FFD775FC62C19EDCBC /* Pods-HooApps_YikYakUITests.debug.xcconfig */,
+				B9C35C9E9FAF9981A7A62F4A /* Pods-HooApps_YikYakUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71E716011F68789E008361A6 = {
+			isa = PBXGroup;
+			children = (
+				71E7160C1F68789E008361A6 /* HooApps_YikYak */,
+				71E716231F68789E008361A6 /* HooApps_YikYakTests */,
+				71E7162E1F68789E008361A6 /* HooApps_YikYakUITests */,
+				71E7160B1F68789E008361A6 /* Products */,
+				6ECCB3CAE761384BA58C5F1E /* Pods */,
+				C13982D43802D2745702FEE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71E7160B1F68789E008361A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E7160A1F68789E008361A6 /* HooApps_YikYak.app */,
+				71E716201F68789E008361A6 /* HooApps_YikYakTests.xctest */,
+				71E7162B1F68789E008361A6 /* HooApps_YikYakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E7160C1F68789E008361A6 /* HooApps_YikYak */ = {
+			isa = PBXGroup;
+			children = (
+				71E7160D1F68789E008361A6 /* AppDelegate.swift */,
+				71E7160F1F68789E008361A6 /* FirstViewController.swift */,
+				71E716111F68789E008361A6 /* SecondViewController.swift */,
+				71E716131F68789E008361A6 /* Main.storyboard */,
+				71E716161F68789E008361A6 /* Assets.xcassets */,
+				71E716181F68789E008361A6 /* LaunchScreen.storyboard */,
+				71E7161B1F68789E008361A6 /* Info.plist */,
+			);
+			path = HooApps_YikYak;
+			sourceTree = "<group>";
+		};
+		71E716231F68789E008361A6 /* HooApps_YikYakTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E716241F68789E008361A6 /* HooApps_YikYakTests.swift */,
+				71E716261F68789E008361A6 /* Info.plist */,
+			);
+			path = HooApps_YikYakTests;
+			sourceTree = "<group>";
+		};
+		71E7162E1F68789E008361A6 /* HooApps_YikYakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71E7162F1F68789E008361A6 /* HooApps_YikYakUITests.swift */,
+				71E716311F68789E008361A6 /* Info.plist */,
+			);
+			path = HooApps_YikYakUITests;
+			sourceTree = "<group>";
+		};
+		C13982D43802D2745702FEE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4EC28B304DD33B39B87132D /* libPods-HooApps_YikYak.a */,
+				D75B9E9E4DF3D29BBD8E6CF8 /* libPods-HooApps_YikYakTests.a */,
+				073826D00FB825D9E97F47C0 /* libPods-HooApps_YikYakUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E716091F68789E008361A6 /* HooApps_YikYak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E716341F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYak" */;
+			buildPhases = (
+				90E30796D7F580A48A353D12 /* [CP] Check Pods Manifest.lock */,
+				71E716061F68789E008361A6 /* Sources */,
+				71E716071F68789E008361A6 /* Frameworks */,
+				71E716081F68789E008361A6 /* Resources */,
+				0F66F659C06ED9D161D46B2A /* [CP] Embed Pods Frameworks */,
+				ACEF52BB6583939757C632D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HooApps_YikYak;
+			productName = HooApps_YikYak;
+			productReference = 71E7160A1F68789E008361A6 /* HooApps_YikYak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E7161F1F68789E008361A6 /* HooApps_YikYakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E716371F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYakTests" */;
+			buildPhases = (
+				C2BA1A34D46FEEF07D628B3D /* [CP] Check Pods Manifest.lock */,
+				71E7161C1F68789E008361A6 /* Sources */,
+				71E7161D1F68789E008361A6 /* Frameworks */,
+				71E7161E1F68789E008361A6 /* Resources */,
+				2DA6F2D3A268DFB8433B56F3 /* [CP] Embed Pods Frameworks */,
+				9C6E25D0CB8ABFE59CA8FB21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E716221F68789E008361A6 /* PBXTargetDependency */,
+			);
+			name = HooApps_YikYakTests;
+			productName = HooApps_YikYakTests;
+			productReference = 71E716201F68789E008361A6 /* HooApps_YikYakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71E7162A1F68789E008361A6 /* HooApps_YikYakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E7163A1F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYakUITests" */;
+			buildPhases = (
+				EE825D75EBA5DE2FD67EA585 /* [CP] Check Pods Manifest.lock */,
+				71E716271F68789E008361A6 /* Sources */,
+				71E716281F68789E008361A6 /* Frameworks */,
+				71E716291F68789E008361A6 /* Resources */,
+				A0568692210CA4547A548ACD /* [CP] Embed Pods Frameworks */,
+				D5FFF73807D19CCFF08B7C23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E7162D1F68789E008361A6 /* PBXTargetDependency */,
+			);
+			name = HooApps_YikYakUITests;
+			productName = HooApps_YikYakUITests;
+			productReference = 71E7162B1F68789E008361A6 /* HooApps_YikYakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E716021F68789E008361A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HooApps;
+				TargetAttributes = {
+					71E716091F68789E008361A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U743V4PW2V;
+						ProvisioningStyle = Automatic;
+					};
+					71E7161F1F68789E008361A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U743V4PW2V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71E716091F68789E008361A6;
+					};
+					71E7162A1F68789E008361A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U743V4PW2V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71E716091F68789E008361A6;
+					};
+				};
+			};
+			buildConfigurationList = 71E716051F68789E008361A6 /* Build configuration list for PBXProject "HooApps_YikYak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E716011F68789E008361A6;
+			productRefGroup = 71E7160B1F68789E008361A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E716091F68789E008361A6 /* HooApps_YikYak */,
+				71E7161F1F68789E008361A6 /* HooApps_YikYakTests */,
+				71E7162A1F68789E008361A6 /* HooApps_YikYakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E716081F68789E008361A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E7161A1F68789E008361A6 /* LaunchScreen.storyboard in Resources */,
+				71E716171F68789E008361A6 /* Assets.xcassets in Resources */,
+				71E716151F68789E008361A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E7161E1F68789E008361A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E716291F68789E008361A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F66F659C06ED9D161D46B2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HooApps_YikYak/Pods-HooApps_YikYak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA6F2D3A268DFB8433B56F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HooApps_YikYakTests/Pods-HooApps_YikYakTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E30796D7F580A48A353D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6E25D0CB8ABFE59CA8FB21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HooApps_YikYakTests/Pods-HooApps_YikYakTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0568692210CA4547A548ACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HooApps_YikYakUITests/Pods-HooApps_YikYakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACEF52BB6583939757C632D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HooApps_YikYak/Pods-HooApps_YikYak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BA1A34D46FEEF07D628B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5FFF73807D19CCFF08B7C23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HooApps_YikYakUITests/Pods-HooApps_YikYakUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE825D75EBA5DE2FD67EA585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E716061F68789E008361A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E716121F68789E008361A6 /* SecondViewController.swift in Sources */,
+				71E7160E1F68789E008361A6 /* AppDelegate.swift in Sources */,
+				71E716101F68789E008361A6 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E7161C1F68789E008361A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E716251F68789E008361A6 /* HooApps_YikYakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E716271F68789E008361A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E716301F68789E008361A6 /* HooApps_YikYakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E716221F68789E008361A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E716091F68789E008361A6 /* HooApps_YikYak */;
+			targetProxy = 71E716211F68789E008361A6 /* PBXContainerItemProxy */;
+		};
+		71E7162D1F68789E008361A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E716091F68789E008361A6 /* HooApps_YikYak */;
+			targetProxy = 71E7162C1F68789E008361A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E716131F68789E008361A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E716141F68789E008361A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E716181F68789E008361A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E716191F68789E008361A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E716321F68789E008361A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E716331F68789E008361A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E716351F68789E008361A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7202EC10DE74C29C6D470D7D /* Pods-HooApps_YikYak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U743V4PW2V;
+				INFOPLIST_FILE = HooApps_YikYak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HooApps.HooApps-YikYak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71E716361F68789E008361A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5805CCF17EA34DBA898F0FF /* Pods-HooApps_YikYak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U743V4PW2V;
+				INFOPLIST_FILE = HooApps_YikYak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HooApps.HooApps-YikYak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		71E716381F68789E008361A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D320C4994A1F1DAA99EEDEE4 /* Pods-HooApps_YikYakTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U743V4PW2V;
+				INFOPLIST_FILE = HooApps_YikYakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HooApps.HooApps-YikYakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HooApps_YikYak.app/HooApps_YikYak";
+			};
+			name = Debug;
+		};
+		71E716391F68789E008361A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA8F1E15F617C4C7BAA24F2 /* Pods-HooApps_YikYakTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U743V4PW2V;
+				INFOPLIST_FILE = HooApps_YikYakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HooApps.HooApps-YikYakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HooApps_YikYak.app/HooApps_YikYak";
+			};
+			name = Release;
+		};
+		71E7163B1F68789E008361A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC19B9FFD775FC62C19EDCBC /* Pods-HooApps_YikYakUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U743V4PW2V;
+				INFOPLIST_FILE = HooApps_YikYakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HooApps.HooApps-YikYakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HooApps_YikYak;
+			};
+			name = Debug;
+		};
+		71E7163C1F68789E008361A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C35C9E9FAF9981A7A62F4A /* Pods-HooApps_YikYakUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U743V4PW2V;
+				INFOPLIST_FILE = HooApps_YikYakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HooApps.HooApps-YikYakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HooApps_YikYak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E716051F68789E008361A6 /* Build configuration list for PBXProject "HooApps_YikYak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E716321F68789E008361A6 /* Debug */,
+				71E716331F68789E008361A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E716341F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E716351F68789E008361A6 /* Debug */,
+				71E716361F68789E008361A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71E716371F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E716381F68789E008361A6 /* Debug */,
+				71E716391F68789E008361A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71E7163A1F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E7163B1F68789E008361A6 /* Debug */,
+				71E7163C1F68789E008361A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E716021F68789E008361A6 /* Project object */;
+}
