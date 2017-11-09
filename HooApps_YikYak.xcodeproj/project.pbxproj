@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		073826D00FB825D9E97F47C0 /* libPods-HooApps_YikYakUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HooApps_YikYakUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D31DC1FB3EE9F005D9858 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		71E7160A1F68789E008361A6 /* HooApps_YikYak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HooApps_YikYak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7160D1F68789E008361A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71E7160F1F68789E008361A6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +105,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		710D31DB1FB3EE83005D9858 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				71E7161B1F68789E008361A6 /* Info.plist */,
+				710D31DC1FB3EE9F005D9858 /* GoogleService-Info.plist */,
+				71E716181F68789E008361A6 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		71E716011F68789E008361A6 = {
 			isa = PBXGroup;
 			children = (
@@ -132,10 +143,9 @@
 				71E7160D1F68789E008361A6 /* AppDelegate.swift */,
 				71E7160F1F68789E008361A6 /* FirstViewController.swift */,
 				71E716111F68789E008361A6 /* SecondViewController.swift */,
+				710D31DB1FB3EE83005D9858 /* SupportingFiles */,
 				71E716131F68789E008361A6 /* Main.storyboard */,
 				71E716161F68789E008361A6 /* Assets.xcassets */,
-				71E716181F68789E008361A6 /* LaunchScreen.storyboard */,
-				71E7161B1F68789E008361A6 /* Info.plist */,
 			);
 			path = HooApps_YikYak;
 			sourceTree = "<group>";
@@ -711,6 +721,7 @@
 				71E716361F68789E008361A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71E716371F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYakTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +730,7 @@
 				71E716391F68789E008361A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71E7163A1F68789E008361A6 /* Build configuration list for PBXNativeTarget "HooApps_YikYakUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +739,7 @@
 				71E7163C1F68789E008361A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
